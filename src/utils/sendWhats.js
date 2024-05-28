@@ -18,7 +18,7 @@ Duração: ${horaI} até ${horaF}
 
   return new Promise((resolve, reject) => {
     setInterval(() => {
-      if (pwd == "euaallee@dev" && !!email) {
+      if (pwd == "dev@dev" && !!email) {
         resolve(`https://api.whatsapp.com/send?phone=${encodeURIComponent(+5587998118592)}&text=${encodeURIComponent(bodyMsg)}`)
       } else {
         reject({ message: "Não foi possivel enviar o formulário! Tente novamente!"})
